@@ -6,9 +6,10 @@
 .navbar {
     left: 0;
     top: 0;
-    height: 5rem;
+    height: 2.5rem;
     width: 100%;
     background-color: aliceblue;
+    position: fixed;
 } 
 .hero {
     width: 100%;
