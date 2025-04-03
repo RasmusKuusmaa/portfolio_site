@@ -115,12 +115,19 @@
 
         /* Project Cards Styling */
         .projects-container {
-            display: grid;
-            grid-template-columns: repeat(3, 1fr);
-            gap: 30px;
-            justify-items: center;
-            margin-top: 20px;
-        }
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 30px;
+    justify-items: center;
+    margin-top: 20px;
+}
+
+@media (max-width: 1200px) {
+    .projects-container {
+        grid-template-columns: 1fr; /* Stack items in one column */
+    }
+}
+
 
         .project-card {
             background: #2a2a2a;
@@ -182,6 +189,13 @@
             justify-items: center;
             margin-top: 20px;
         }
+
+
+@media (max-width: 1200px) {
+    .skills-container {
+        grid-template-columns: 1fr; /* Stack items in one column */
+    }
+}
 
         .skills-column {
             background: #2a2a2a;
